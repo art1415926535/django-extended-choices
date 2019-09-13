@@ -90,8 +90,8 @@ class Choices(list):
 
     Parameters
     ----------
-    *choices : list of tuples
-        It's the list of tuples to add to the ``Choices`` instance, each tuple having three
+    *choices : tuple
+        It's tuples to add to the ``Choices`` instance, each tuple having three
         entries: the constant name, the value, the display name.
 
         A dict could be added as a 4th entry in the tuple to allow setting arbitrary
